@@ -1,0 +1,78 @@
+img{
+    width: 20%;
+    height: 450px;
+    margin: 35px 95px;
+    border: 2px solid #a9d6e5 ;
+    transition: all 0.05s;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px #000000;
+    -moz-box-shadow: 10px 10px 5px #000000;
+    -webkit-box-shadow: 10px 10px 5px #000000;
+    -khtml-box-shadow: 10px 10px 5px #000000;
+    transition: all 0.15s;
+} 
+img:hover{
+    transform: translate( -3px, -8px);
+    border: 4px solid #a9d6e5;
+    box-shadow: none;
+} 
+body{
+    background: center/contain url(https://images.unsplash.com/photo-1549189189-c26639dfc999?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHN0YXJyeSUyMHNreXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+}
+.nav{
+    background-color: hsl(283, 80%, 6%, 0.5);
+    height: 200px;
+    border-bottom: 5px solid hsl(283, 88%, 3%);
+    border-radius: 5px;
+    color: rgb(166, 153, 172);
+    text-align: center;
+    line-height: 0.10;
+}
+#aa{
+    font-size: 55px;    
+    letter-spacing: 3px;
+    font-family: 'Ephesis', cursive;
+    color: rgb(88, 65, 99);
+}
+#bb{
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+#cc{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+.abc{
+    padding: 10px 3px;
+    background-color: rgba(13, 3, 17, 0.3);
+    height: 100px;
+    border-bottom: 5px solid hsl(283, 88%, 3%);
+    border-radius: 5px;
+    color: rgb(166, 153, 172);
+    text-align: center;
+    /* line-height: 0.10; */
+    font-family: 'Zen Old Mincho', sans-serif;
+}
+.abc a{
+    text-decoration: none;
+    margin: 0 20px ;
+    color: rgb(121, 57, 158);
+    letter-spacing: 5px;
+}
+.abc a:hover{
+    color: rgb(139, 114, 151);
+}
+.abc div{
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+#writer{
+    text-align: right;
+    margin-right: 30px;
+}
